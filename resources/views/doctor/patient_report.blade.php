@@ -11,13 +11,13 @@
         <thead>
             <tr>
                 <th>Email</th>
-                <th>Consultation Date</th>
-                <th>Reason</th>
-                <th>Medications</th>
-                <th>Vital Signs</th>
-                <th>Notes</th>
-                <th>Nurse Attended</th>
-                <th>Total Price</th>
+                <th>Fecha de consulta</th>
+                <th>Razon</th>
+                <th>Medicamentos</th>
+                <th>Signos vitales</th>
+                <th>Notas</th>
+                <th>Atendio una enfermera</th>
+                <th>Precio total</th>
             </tr>
         </thead>
         <tbody>

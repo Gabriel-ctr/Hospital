@@ -8,19 +8,19 @@
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
         <!-- Consultations by Month -->
         <div class="bg-white dark:bg-gray-800 p-4 shadow-md rounded-lg">
-            <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-4">Consultations by Month</h3>
+            <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-4">Consultas del mes</h3>
             <canvas id="consultationsChart" width="200" height="150"></canvas>
         </div>
         <!-- Number of Patients -->
         <div class="bg-white dark:bg-gray-800 p-4 shadow-md rounded-lg flex items-center justify-center">
             <div class="text-center">
-                <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-4">Total Patients</h3>
+                <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-4">Total de pacientes</h3>
                 <div class="text-3xl font-bold text-gray-800 dark:text-gray-100">{{ $patients->count() }}</div>
             </div>
         </div>
         <!-- Age Ranges of Patients -->
         <div class="bg-white dark:bg-gray-800 p-4 shadow-md rounded-lg">
-            <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-4">Age Ranges of Patients</h3>
+            <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-4">Rango de edades de los pacientes</h3>
             <canvas id="ageRangesChart" width="200" height="150"></canvas>
         </div>
     </div>
@@ -42,13 +42,13 @@
             <thead>
                 <tr>
                     <th class="px-4 py-2 text-left">Email</th>
-                    <th class="px-4 py-2 text-left">Consultation Date</th>
-                    <th class="px-4 py-2 text-left">Reason</th>
-                    <th class="px-4 py-2 text-left">Medications</th>
-                    <th class="px-4 py-2 text-left">Vital Signs</th>
-                    <th class="px-4 py-2 text-left">Notes</th>
-                    <th>Nurse Attended</th>
-                    <th class="px-4 py-2 text-left">Total Price</th>
+                    <th class="px-4 py-2 text-left">Fecha de consulta</th>
+                    <th class="px-4 py-2 text-left">Razon</th>
+                    <th class="px-4 py-2 text-left">Medicamentos</th>
+                    <th class="px-4 py-2 text-left">Signos vitales</th>
+                    <th class="px-4 py-2 text-left">Notas</th>
+                    <th>Atendio una enfermera</th>
+                    <th class="px-4 py-2 text-left">Precio total</th>
                 </tr>
             </thead>
             <tbody>
